@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frogger</title>
+    <link rel="stylesheet" type="text/css" href="froggerStyle.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../RockPaperScissors/rockPaperScissors.html">Rock Paper Scissors</a></li>
+            <li><a href="MemoryGameMain.html">Memory</a></li>
+            <li><a href="../Whac-A-Mole/WhacAMoleIndex.html">Whac-A-Mole</a></li>
+            <li><a href="../Breakout/BreakoutIndex.html">Breakout</a></li>
+            <li><a style="color:lightblue" href="froggerIndex.html">Frogger</a></li>
+            <li><a href="../WIP/WIPIndex.html">Connect Four</a></li>
+            <li><a href="../WIP/WIPIndex.html">Space Invaders</a></li>
+        </ul>
+    </div>
+
+    <h3>Seconds left: <span id="time-left">20</span></h3>
+    <h3>Result: <span id="result">0</span></h3>
+
+    <button id="start-pause-button">Start/Pause</button>
+
+    <div class="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="ending-block"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-left l5"></div>
+        <div class="log-left l1"></div>
+        <div class="log-left l2"></div>
+        <div class="log-left l3"></div>
+        <div class="log-left l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div class="log-right l4"></div>
+        <div class="log-right l5"></div>
+        <div class="log-right l1"></div>
+        <div class="log-right l2"></div>
+        <div class="log-right l3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-left c1"></div>
+        <div class="car-left c2"></div>
+        <div class="car-left c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div class="car-right c1"></div>
+        <div class="car-right c2"></div>
+        <div class="car-right c3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="starting-block frog"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <button style="margin:6px;" onClick="window.location.reload();">Reset</button>
+
+    <script src="froggerApp.js"></script>
+</body>
+</html> 

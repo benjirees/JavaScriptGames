@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+.navbar {
+    padding-top: 1.2em;
+    margin-bottom: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+    font-family: monospace;
+    font-size: 17px;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #008CBA;
+}
+
+.grid {
+    border: 1px solid gray;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+.l1, .l2, .l3 {
+    background-color: brown;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: gray;
+}
+
+.frog {
+    background-color: green;
+}
+
+button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 12px;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+button:hover {
+    background-color: lightskyblue;
+}
+button:active {
+    background-color: lightskyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

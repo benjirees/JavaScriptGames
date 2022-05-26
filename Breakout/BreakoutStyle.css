@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.navbar {
+    padding-top: 1.2em;
+    margin-bottom: 465px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+    font-family: monospace;
+    font-size: 17px;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #008CBA;
+}
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid gray 1px;
+    margin-top: 40px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #008CBA;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: beige;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 16px;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+button:hover {
+    background-color: lightskyblue;
+}
+button:active {
+    background-color: lightskyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
